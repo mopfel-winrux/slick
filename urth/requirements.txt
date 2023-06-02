@@ -1,0 +1,6 @@
+bitstream==2.6.0.2
+mmh3==4.0.0
+numpy==1.24.3
+protobuf==4.21.12
+pygame==2.4.0
+six==1.16.0
