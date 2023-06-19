@@ -8,7 +8,7 @@ import json
 import sys
 
 def cue_noun(data):
-    x = cue_newt(data)
+    x = cue(int.from_bytes(data[5:], 'little'))
 
     hed_len = (x.head.bit_length()+7)//8
     mark = x.head.to_bytes(hed_len,'little').decode()
