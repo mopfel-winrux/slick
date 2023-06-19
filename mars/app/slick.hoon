@@ -48,7 +48,7 @@
 ++  config
   |%
   ++  start-length  5
-  ++  speed         (div ~s1 2)
+  ++  speed         (div ~s1 5)
   ++  gain          (div ~s1 60)
   ++  peak          20
   --

@@ -36,7 +36,7 @@ else:
     WIDTH, HEIGHT = GRID_SIZE * CELL_SIZE, GRID_SIZE * CELL_SIZE
 
 
-sock.settimeout(0.1)
+sock.settimeout(0.01)
 pygame.init()
 
 # Define some colors
@@ -108,4 +108,4 @@ while True:
         draw_cell(food, RED)
 
     pygame.display.update()
-    if(status == 'ceased'): game_over()
+    #if(status == 'ceased'): game_over()
